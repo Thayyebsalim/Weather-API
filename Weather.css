@@ -1,0 +1,90 @@
+html, body {
+  padding: 0 5px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid {
+  padding-top: 20px;
+  max-width: 750px;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  color: black;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.greet {
+  margin-bottom: 10px;
+}
+
+.weather {
+  margin-bottom: 20px;
+}
+
+.temp {
+  margin: 20px 0 10px 0;
+}
+
+button {
+  font-family: 'Josefin Slab', cursive;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(246, 246, 246, 0.4);
+  font-size: 25px;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.image {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.icon {
+  padding: 20px;
+  height: 100px;
+  width: auto;
+  border-radius: 100%;
+  max-height: 150px;
+  margin: auto;
+}
+
+.comment {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.border {
+  border: double white;
+  border-radius: 10px;
+  background-color: rgba(246, 246, 246, 0.5);
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+.footer {
+  margin: 45px -9px 0 -10px;
+  height: 23px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+  color: white;
+  font-family: 'Quicksand';
+  text-align: center;
+  padding: 5px 0;
+}
+
+.line {
+  height: 2px;
+  margin-bottom: 5px;
+  width: 100%;
+  background: white;
+}
